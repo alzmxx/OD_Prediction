@@ -15,8 +15,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
-tf.app.flags.DEFINE_string("data_dir","/home/xi/Documents/Research/OD_prediction/DL_prediction/data/new_gnn_npy/"," base path")
-tf.app.flags.DEFINE_string("out_dir", "/home/xi/Documents/Research/OD_prediction/DL_prediction/data/new_gnn_npy/results/20190725/", "Output directory.")
+tf.app.flags.DEFINE_string("data_dir","~/Documents/Research/OD_prediction/DL_prediction/data/new_gnn_npy/"," base path")
+tf.app.flags.DEFINE_string("out_dir", "~/Documents/Research/OD_prediction/DL_prediction/data/new_gnn_npy/results/20190725/", "Output directory.")
 tf.app.flags.DEFINE_float("learning_rate", 0.001, "Learning rate.")
 #tf.app.flags.DEFINE_integer("train_step", 10000000, "Num to train.")
 tf.app.flags.DEFINE_integer("train_step", 1000000, "Num to train.")
